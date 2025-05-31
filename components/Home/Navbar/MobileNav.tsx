@@ -34,7 +34,7 @@ const MobileNav = ({ navShown, closeNav }: NavProps) => {
         </ul>
         <CgClose
           onClick={closeNav}
-          className='absolute text-white top-6 right-6 w-6 h-6 sm:w-8 sm:h-8'
+          className='absolute text-white top-6 right-6 w-6 h-6 sm:w-8 sm:h-8 cursor-pointer'
         />
       </div>
     </nav>
