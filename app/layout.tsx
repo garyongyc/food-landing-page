@@ -3,6 +3,8 @@ import { Manrope } from 'next/font/google';
 import './globals.css';
 import ResponsiveNav from '../components/Home/Navbar/ResponsiveNav';
 import Provider from '@/components/HOC/Provider';
+import Footer from '@/components/Home/Footer/Footer';
+import ScrollToTop from '@/components/Helper/ScrollToTop';
 
 const manropeFont = Manrope({
   weight: ['200', '300', '400', '500', '600', '700', '800'],
@@ -26,6 +28,8 @@ export default function RootLayout({
         <Provider>
           <ResponsiveNav />
           {children}
+          <Footer />
+          <ScrollToTop />
         </Provider>
       </body>
     </html>
