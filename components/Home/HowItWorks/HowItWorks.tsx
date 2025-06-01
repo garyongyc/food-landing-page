@@ -8,7 +8,11 @@ const HowItWorks = () => {
         How It Works
       </h2>
       <div className='w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10'>
-        <div>
+        <div
+          data-aos='fade-right'
+          data-aos-anchor-placement='top-center'
+          data-aos-delay='0'
+        >
           <StepCard
             num='01'
             image='/images/w1.png'
@@ -16,7 +20,11 @@ const HowItWorks = () => {
             description='As a delivery rider, you can make reliable money on your own terms'
           />
         </div>
-        <div>
+        <div
+          data-aos='fade-right'
+          data-aos-anchor-placement='top-center'
+          data-aos-delay='100'
+        >
           <StepCard
             num='02'
             image='/images/w2.png'
@@ -24,7 +32,11 @@ const HowItWorks = () => {
             description='As a partner, you can make reliable money on your own terms'
           />
         </div>
-        <div>
+        <div
+          data-aos='fade-right'
+          data-aos-anchor-placement='top-center'
+          data-aos-delay='200'
+        >
           <StepCard
             num='03'
             image='/images/w3.png'

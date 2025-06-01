@@ -5,7 +5,11 @@ const About = () => {
   return (
     <section className='py-16'>
       <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
-        <div>
+        <div
+          data-aos='fade-right'
+          data-aos-anchor-placement='top-center'
+          data-aos-delay='0'
+        >
           <Image
             src='/images/a.png'
             width={800}

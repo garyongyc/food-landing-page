@@ -7,7 +7,7 @@ const Hero = () => {
     <section className='relative w-full h-screen flex flex-col justify-center'>
       <div className='w-[90%] md:w-[80%] mx-auto grid items-center grid-cols-1 xl:grid-cols-2 gap-10'>
         {/* TEXT CONTENT */}
-        <div>
+        <div data-aos='fade-up'>
           <h1 className='text-3xl md:text-4xl lg:text-5xl my-6 font-extrabold leading-[2.5rem] md:leading-[4rem]'>
             Your favourite food,{' '}
             <span className='text-pink-600'>delivered</span> to you.
@@ -52,7 +52,7 @@ const Hero = () => {
           </div>
         </div>
         {/* IMAGE CONTENT */}
-        <div>
+        <div data-aos='fade-left' data-aos-delay='150'>
           <Image
             src='/images/hero.png'
             alt='hero-image'
