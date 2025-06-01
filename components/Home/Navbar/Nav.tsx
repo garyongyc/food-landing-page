@@ -31,8 +31,8 @@ const Nav = ({ openNav }: NavProps) => {
   return (
     <header
       className={`transition-all duration-200 h-[12vh] z-[100] ${
-        navBg ? 'bg-white dark:bg-gray-900 shadow-md' : 'fixed'
-      } w-full fixed`}
+        navBg ? 'bg-white dark:bg-gray-900 shadow-md fixed' : ''
+      } w-full`}
     >
       <nav className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
         {/* LOGO */}
